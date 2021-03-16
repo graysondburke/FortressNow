@@ -1,0 +1,21 @@
+.story{
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    grid-row: 2/ 3;
+    grid-column: 2/ span 1;
+    /* border: 1px solid blueviolet; */
+    margin-top: 17%;
+    margin-bottom: 17%;
+    position: relative; 
+    overflow: hidden;
+  
+}
+
+.text{
+  justify-self: center;
+  align-self: center;
+  width: auto;
+  padding: 0% 22% 0%;
+  line-height: 1.6;
+}

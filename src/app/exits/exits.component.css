@@ -1,0 +1,26 @@
+.side{
+    font-size: 0.7em;
+    padding: 1%;
+  }
+
+
+  li{
+    font-size: 1.3em;
+  }
+  
+
+
+  .exits{
+    grid-column: 3/ span 1;
+    grid-row-start: 2;
+    grid-row-end: auto;
+    /* border: 1px solid blueviolet; */
+    position: fixed;
+    right: 0;
+    margin-right: 9%;
+    margin-top: 15%;
+  }
+
+  .exits h2{
+    text-align: center;
+  }

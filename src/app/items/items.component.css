@@ -1,0 +1,25 @@
+.side{
+    font-size: 0.7em;
+    padding: 1%;
+  }
+
+  .items{
+    /* border: 1px solid blueviolet; */
+    grid-column: 1/ span 1;
+    grid-row-start: 2;
+    grid-row-end: auto;
+    position: fixed;
+    left: 0;
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+
+  li{
+    font-size: 1.3em;
+  }
+  
+  .items h2{
+      text-align: center;
+  }
+
+ 

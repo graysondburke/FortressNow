@@ -1,0 +1,59 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #FFFFF9;
+  }
+  
+  p, 
+  li {
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .grid{
+      display: grid;
+      grid-template: 1fr 7fr 1fr/ 1fr 2fr 1fr;
+      justify-items: center;
+      /* border: 1px solid blueviolet; */
+      width: 100%;
+      height: 100%;
+  }
+
+  header {
+    color: #FFFFF9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    grid-row: 1;
+    grid-column: 2;
+    /* border: 1px solid blueviolet; */
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+
+  body{
+    background: url("/Users/graysonburke/Desktop/FortressNow/resources/bwithorange.jpg") no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+
+  
+  
+ 
+
+ /* Footer */
+  footer{
+      font-family: Helvetica;
+      font-weight: bold;
+      grid-column: 2;
+      grid-row: 3;
+      text-align: center;
+      /* border: 1px solid blueviolet; */
+      width: 100%;
+      height: 1rem;
+      position: fixed;
+      bottom: 0;
+      margin-bottom: 2%;
+  }
